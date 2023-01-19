@@ -9,3 +9,4 @@ class Chirp extends Model
 {
     use HasFactory;
 }
+ 
