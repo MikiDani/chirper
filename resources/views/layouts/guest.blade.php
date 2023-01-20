@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<style>
-    .mdlogo {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-
-        background-color: orange;
-
-        width: 50px;
-        height: 50px;
-
-        border-radius: 2rem;
-        font-weight: bold;
-        font-size: 1.3rem;
-        rotate: z -15deg;
-
-    }
-</style>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <style>
+        .mdlogo {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+    
+            background-color: orange;
+    
+            width: 50px;
+            height: 50px;
+    
+            border-radius: 2rem;
+            font-weight: bold;
+            font-size: 1.3rem;
+            rotate: z -15deg;
+    
+        }
+    </style>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
